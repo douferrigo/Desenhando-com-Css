@@ -1,0 +1,141 @@
+
+
+*{
+    background-color: beige;
+}
+.fundo {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.top {
+    background-color: rgb(46, 41, 41);
+    border-radius: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.detalhe {
+    background-color: rgb(71, 68, 68);
+    height: 20px;
+    border-radius: 50px;
+    position:absolute;
+    z-index: 1;
+}
+.fita {
+    background-color: #000000 ;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.detalhe1 {
+
+    background-color: rgb(26, 26, 27);
+    height: 25px;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+}
+.cartao1 {
+    display: block;
+    background-color: rgb(46, 41, 41);
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+    position: absolute;
+    left: 350px;
+    bottom: 200px;
+    z-index: 0;
+}
+
+.cartao2 {
+    display: flex;
+    background-color: rgb(196, 0, 0);
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+
+}
+.circulo1 {
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 40px;
+    top: 30px;   
+}
+.circulo2 {
+    background-color: rgb(251, 255, 0);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 75px;
+    top: 30px;
+}
+.detalhe2 {
+    background-color: rgb(250, 0, 0);
+    height: 25px;
+    width: 200px;
+    border-radius: 50px;
+    z-index: 3;
+    position: absolute;
+    left: 30px;
+    top: 55px;
+}
+.detalhe3 {
+    background-color: rgb(250, 0, 0);
+    height: 25px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    position: absolute;
+    left: 30px;
+    top: 120px;
+
+}
+.detalhe4 {
+    background-color: rgb(250, 0, 0);
+    height: 25px;
+    width: 70px;
+    border-radius: 50px;
+    z-index: 3;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.detalhe5 {
+    background-color: rgb(255, 44, 44);
+    height: 25px;
+    width: 70px;
+    border-radius: 50px;
+    z-index: 3;
+    position: absolute;
+    left: 130px;
+    bottom: 30px;
+}
+.detalhe6 {
+    background-color: rgb(255, 44, 44);
+    height: 25px;
+    width: 70px;
+    border-radius: 50px;
+    z-index: 3;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.detalhe7 {
+    background-color: rgb(250, 0, 0);
+    height: 25px;
+    width: 70px;
+    border-radius: 50px;
+    z-index: 3;
+    position: absolute;
+    right: 130px;
+    bottom: 30px;
+}
